@@ -1,0 +1,40 @@
+node-vary (1.1.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Require node-supertest ≥ 1.1.0 (fixes debci)
+  * Use pkg-js-tools auto test & install
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 21 Dec 2019 14:50:52 +0100
+
+node-vary (1.1.2-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version
+  * Bump policy and compat
+  * Move to javascript section/optional
+  * Use build profile for testing
+  * Run testsuite for CI
+
+ -- Bastien Roucariès <rouca@debian.org>  Thu, 01 Nov 2018 18:25:18 +0100
+
+node-vary (1.0.0-1) unstable; urgency=medium
+
+  * Imported Upstream version 1.0.0
+  * Bump Standard-Version 3.9.6
+  * debian/watch: fix dversionmangle
+  * Update dh_auto_test command
+  * Add node-supertest as dependecy
+  * Add autopkgtest suite
+
+ -- Leo Iannacone <l3on@ubuntu.com>  Sat, 11 Oct 2014 14:42:25 +0200
+
+node-vary (0.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #751592)
+
+ -- Leo Iannacone <l3on@ubuntu.com>  Wed, 18 Jun 2014 00:38:16 +0200
